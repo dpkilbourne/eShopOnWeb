@@ -8,8 +8,8 @@ resources:
 variables:
   azureServiceConnection: 'azure subs'
   subscriptionId: 0f9c3351-4055-42ee-9aea-aceed076abb4
-  resourceGroup: 'rg-az400-container-NAME'
-  location: 'centralus'
+  resourceGroup: 'rg-az400-container-dpk'
+  location: 'westus'
 
 stages:
 - stage: Build
